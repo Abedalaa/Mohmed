@@ -8,9 +8,16 @@ body{
     margin-left: 5px;
 }
 .prices .price-imge{
-    background: url(../images/price-ar.png) #fcfcfc;
+    background: url(../images/price-ar.jpg) #f7f7f7;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+
+}
+.btn-secondary {
+    color: #fff !important;
+    background-color: #60295e !important;
+    border-color: #60295e !important;
+    margin-left: 81px !important;
 
 }

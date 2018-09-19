@@ -163,19 +163,16 @@ padding: 5px
 }
 /* end page-links styles */
 /* Start prices styles */
-.prices{
-
-}
-.prices .price-imge{
-    background: url(../images/price-en.png) #fcfcfc;
-    height: 200px;
+ .price-imge{
+    background: url(../images/price-en.jpg) #f7f7f7;
+    height: 253px;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
     margin-bottom: 30px;
 }
 .prices .price-imge:after{
-    height: 150px;
+    height: 50px;
     content: '';
     position: absolute;
     width: 100%;
@@ -183,7 +180,12 @@ padding: 5px
     bottom: -75%;
     left: 0;
 }
-.prices .prices-tables{
+
+.btn-secondary {
+    color: #fff !important;
+    background-color: #60295e !important;
+    border-color: #60295e !important;
+    margin-left: 81px !important;
 
 }
 .prices .prices-table{
@@ -394,7 +396,7 @@ margin-top: 50px;
     justify-content: center;
 }
 .footer .footer-bootom .social-media a{
-    color: #420640;
+    color: #333;
     margin-right:10px ;
     display: block;
 }
